@@ -1,0 +1,167 @@
+/*Designing Skeleton*/
+
+body{
+	background-color: rgb(125, 125, 125);
+	color: #2a324bff;
+	font-family: oswald;
+	font-size: 17px;
+
+}
+
+h1, h2, h3{
+
+	font-family: sans-serif;
+	font-size: 24px;
+}
+h1{
+	font-size: large;
+	font-family: Bree;
+	letter-spacing: 2px;
+	font-size: 40px;
+	color: #09445D;
+}
+
+h2{
+	color: #d0cebaff;
+	font-family: Proxima Nova;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	font-style: bold;
+	font-size: 16px;
+	color: #376996;
+	transition: color 0.3s ease
+}
+
+a:hover {
+	color: darkblue;
+}
+
+/*Custom design with id*/
+
+#logo{
+	width: 200px;
+	border-radius: 50%;
+}
+
+/*Custom design with class*/
+
+.img-bordered{
+	border: 2px solid black;
+	width: 100px;
+}
+
+.text-justify{
+	text-align:  justif;
+}
+
+.container{
+	width: 700px;
+	margin: 40px 40px 40px 40px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white{
+		background: floralwhite;
+		padding: 50px;
+		margin: 50px;
+		box-shadow: 0px 10px 5px rgb(0 0 0 / 30%);
+		border-radius: 1%;
+		text-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 15px;
+	color: rgb(230, 230, 230);
+
+}
+
+.btn-blue{
+	background-color: #376996;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 1%;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: whitesmoke;
+}
+
+/*Palette de couleurs*/
+
+/* CSS HEX */
+--bone: #d0cebaff;
+--space-cadet: #2a324bff;
+--rhythm: #767b91ff;
+--kombu-green: #243010ff;
+--antique-bronze: #73683bff;
+
+/* CSS HSL */
+--bone: hsla(55, 19%, 77%, 1);
+--space-cadet: hsla(225, 28%, 23%, 1);
+--rhythm: hsla(229, 11%, 52%, 1);
+--kombu-green: hsla(83, 50%, 13%, 1);
+--antique-bronze: hsla(48, 32%, 34%, 1);
+
+/* SCSS HEX */
+$bone: #d0cebaff;
+$space-cadet: #2a324bff;
+$rhythm: #767b91ff;
+$kombu-green: #243010ff;
+$antique-bronze: #73683bff;
+
+/* SCSS HSL */
+$bone: hsla(55, 19%, 77%, 1);
+$space-cadet: hsla(225, 28%, 23%, 1);
+$rhythm: hsla(229, 11%, 52%, 1);
+$kombu-green: hsla(83, 50%, 13%, 1);
+$antique-bronze: hsla(48, 32%, 34%, 1);
+
+/* SCSS RGB */
+$bone: rgba(208, 206, 186, 1);
+$space-cadet: rgba(42, 50, 75, 1);
+$rhythm: rgba(118, 123, 145, 1);
+$kombu-green: rgba(36, 48, 16, 1);
+$antique-bronze: rgba(115, 104, 59, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-right: linear-gradient(90deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-bottom: linear-gradient(180deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-left: linear-gradient(270deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-top-right: linear-gradient(45deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-bottom-right: linear-gradient(135deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-top-left: linear-gradient(225deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-bottom-left: linear-gradient(315deg, #d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
+$gradient-radial: radial-gradient(#d0cebaff, #2a324bff, #767b91ff, #243010ff, #73683bff);
